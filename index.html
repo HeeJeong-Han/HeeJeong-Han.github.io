@@ -1,454 +1,90 @@
- <!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-  <title>HeeJeongHan</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="faviconpic.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/main.bundle.css">
-  <script src="https://kit.fontawesome.com/4e5a72c756.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff; min-height: 19.0px}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff}
+    p.p6 {margin: 0.0px 0.0px 24.0px 0.0px; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939; background-color: #f2f2f2; min-height: 19.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; line-height: 24.0px; font: 16.0px Helvetica; color: #1acaa3; -webkit-text-stroke: #1acaa3}
+    p.p8 {margin: 0.0px 0.0px 24.0px 0.0px; line-height: 27.0px; font: 24.0px Helvetica; color: #292929; -webkit-text-stroke: #292929}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
+    p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
+    p.p11 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939; background-color: #ffffff}
+    p.p12 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
+    p.p13 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: justify; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939; min-height: 19.0px}
+    p.p14 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #1acaa3; -webkit-text-stroke: #1acaa3; min-height: 19.0px}
+    p.p15 {margin: 0.0px 0.0px 5.0px 0.0px; text-align: center; line-height: 16.5px; font: 11.0px Helvetica; color: #1acaa3; -webkit-text-stroke: #1acaa3}
+    p.p16 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #353535; -webkit-text-stroke: #353535; min-height: 19.0px}
+    p.p17 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 24.0px; font: 16.0px Helvetica; color: #353535; -webkit-text-stroke: #353535}
+    li.li10 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px Helvetica; color: #393939; -webkit-text-stroke: #393939}
+    span.s1 {font-kerning: none; background-color: #353535}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #393939; -webkit-text-stroke: 0px #393939}
+    span.s4 {font-kerning: none; color: #1acaa3; -webkit-text-stroke: 0px #1acaa3}
+    span.s5 {font-kerning: none; background-color: #ffffff}
+    span.s6 {background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s7 {font-kerning: none; color: #1acaa3; background-color: transparent; -webkit-text-stroke: 0px #1acaa3}
+    span.s8 {font: 11.0px Helvetica; font-kerning: none; color: #1acaa3; background-color: transparent; -webkit-text-stroke: 0px #1acaa3}
+    span.s9 {font-kerning: none; background-color: #f9f9f9}
+    ul.ul1 {list-style-type: disc}
+  </style>
 </head>
-
 <body>
-
-  <section class="hero is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <div class="level">
-          <div class="level-item has-text-centered">
-            <figure class="image is-128x128">
-              <img class="is-rounded" src="img/me-big.jpg">
-            </figure>
-          </div>
-        </div>
-        <div class="columns has-text-centered">
-          <div class="column">
-            <h1 class="title is-1">
-              Hee Jeong Han
-            </h1>
-            <h2 class="subtitle">
-              Ph.D Student
-            </h2>
-            <p>
-		<a href="#Education"> <strong>Education &emsp; </strong> </a>
-		<a href="#Publications"> <strong> Publications &emsp; </strong> </a>
-		<a href="#Projects"> <strong> Projects &emsp; </strong> </a>
-
-              <a href="docs/HeeJeongHan_CV.pdf" target="_blank">
-                 <strong>CV</strong>
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">About Me</h1>
-      <hr />
-	<div style="text-align:justify">
-      <p>I am a Ph.D Student in the <a href="https://ist.psu.edu/" target="_blank">College of Informatics Science and Technology</a> at Penn State University. I am working with <a href="https://saeedabdullah.com/" target="_blank">Dr. Saeed Abdullah</a> at the <a href="https://whilab.org/" target="_blank">Well-being and Health Innovation Lab</a>.</p>
-	</div>
-    </div>
-  </section>
-
-<a name="Education"></a>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Education</h1>
-      <hr />
-      <div class="card">
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4">Pennsylvania State University</p>
-            <p class="subtitle is-6">University Park, PA 
-		<span style="display:inline-block; width: 570px;"></span>
-		<time datetime="2016-9">September 2020</time> - <time
-                datetime="2019-9">present</time></p>
-          </div>
-          <div class="content">
-            Doctor of Philosophy in Informatics
-          </div>
-        </div>
-      </div>
-
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4">University of California, Irvine</p>
-            <p class="subtitle is-6">Irvine, CA
-		<span style="display:inline-block; width: 615px;"></span>
-		<time datetime="2015-9">September 2017</time> - <time
-                datetime="2015-9">June 2019</time></p>
-          </div>
-          <div class="content">
-            Master of Science in Computer Science 
-            <ul>
-              <li>GPA : 3.76 / 4.0</li>
-              <li><b>Thesis</b> : Objective Stress Monitoring based on Wearable Sensors in Everyday Settings</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="card card-gap">
-        <div class="card-content">
-          <div class="content">
-            <p class="title is-4">Ewha Womans University</p>
-            <p class="subtitle is-6">Seoul, Korea
-		<span style="display:inline-block; width: 590px;"></span>
-		<time datetime="2015-9">March 2012</time> - <time
-                datetime="2015-9">Feburary 2017</time></p>
-          </div>
-          <div class="content">
-            Bachelor of Science in Computer Science & Engineering 
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-<a name="Publications"></a>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Publications</h1>
-      <hr />
-	<div style="text-align:justify">
-		<li><b>Han, Hee Jeong</b>, Sanjana Mendu, Beth K Jaworski, Jason E Owen, and Saeed Abdullah. <a href="https://doi.org/10.1145/3460418.3479332" target="_blank">PTSDialogue: Designing a Conversational Agent to Support Individuals with Post-Traumatic Stress Disorder.</a> <I>In Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers (UbiComp '21).</I> Association for Computing Machinery, New York, NY, USA, 198–203.
-		<p>&emsp; &emsp; DOI: https://doi.org/10.1145/3460418.3479332</p></li>
-
-		<span style="display:block; height: 12px;"></span>
-
-              <li><b>Han, Hee Jeong</b>, Sina Labbaf, Jessica L. Borelli, Nikil Dutt, and Amir M. Rahmani. <a href="https://doi.org/10.1080/03091902.2020.1759707" target="_blank">Objective stress monitoring based on wearable sensors in everyday settings.</a> <I>Journal of Medical Engineering & Technology</I> 44, no. 4 (2020): 177-189
-		<p>&emsp; &emsp; DOI: https://doi.org/10.1080/03091902.2020.1759707</p></li>
-
-		<span style="display:block; height: 12px;"></span>
-
-              <li><b>Han, Hee Jeong</b>, Miso Kwon, You Hyun Kang, Dong Sub Cho. <a href="docs/Pedestrian Management System for Real-time Pedestrian Detection.pdf" target="_blank">Pedestrian Management System for Real-time Pedestrian Detection.</a> In <I>Proceedings of Korea Multimedia Society Conference of the Spring</I>, Seoul, Korea, 2016
-		<p>&emsp; &emsp; <b>Best Paper Award</b>, Korea Multimedia Society Conference of the Spring 2016</p></li>
-		<span style="display:block; height: 12px;"></span>
-
-      		<li> <b>Han, Hee Jeong</b>, You Hyun Kang, Miso Kwon, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07018004" target="_blank">Pedestrian Pattern Classification For the Pedestrian Counting Systems using Key Matrix.</a> In <I>Proceedings of Korea Computer Congress 2016</I>, Jeju, Korea, 2016
-		<p>&emsp; &emsp; <b>Best Paper Award</b>, Korea Computer Congress 2016</p></li>
-		<span style="display:block; height: 12px;"></span>
-
-		<li> <b>Han, Hee Jeong</b>, You Hyun Kang, Miso Kwon, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07011911" target="_blank">Pedestrian Safety Management Systems based on Multiple-input enabled F-pad.</a> In <I>Proceedings of The Korean Institute of Electrical Engineers(KIEE) Summer Conference 2016</I>, PyeongChang, Korea, 2016</li>
-		<span style="display:block; height: 12px;"></span>
-
-		<li> You Hyun Kang, Miso Kwon, <b>Hee Jeong Han</b>, Dong Sub Cho. A System on the Formation of Pedestrian Pattern for Pedestrian Volume Analysis. In <I>Proceedings of The 2016 Spring Conference of the Korea Information Processing Society(KIPS)</I>, Seoul, Korea, 2016</li>
-		<span style="display:block; height: 12px;"></span>
-
-		<li> Miso Kwon, You Hyun Kang, <b>Hee Jeong Han</b>, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116912" target="_blank">Adaptive for time-varing clustering DBSCAN.</a> In <I>Proceedings of 2016 Information and Control Symposium</I>, Seoul, Korea, 2016</li>
-	</div>
-    </div>
-  </section>
-
-<a name="Projects"></a>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Projects</h1>
-      <hr />
-
-
-
-
-    </div>
-  </section>
-
-
-  <section class="section">
-    <div class="container">
-      <h1 class="title">Contact</h1>
-      <hr />
-      <nav class="level">
-         <div class="level-item has-text-centered">
-          <div>
-            <a href="mailto:heejeonghan@psu.edu" class="icon is-large">
-              <i class="fas fa-2x fa-envelope"></i>
-            </a>
-            <p class="heading"><a href="mailto:heejeonghan@psu.edu">heejeonghan@psu.edu</a></p>
-          </div>
-        </div>
-        <div class="level-item has-text-centered">
-          <div>
-            <a href="https://www.linkedin.com/in/heejeonghan/" class="icon is-large" target="_blank">
-              <i class="fab fa-2x fa-linkedin-in"></i>
-            </a>
-            <p class="heading"><a href="https://www.linkedin.com/in/heejeonghan/">linkedin</a></p>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </section>
-
-  <!-- Modals -->
-  <div id="project-1-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-1-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-2-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-
-        <div id="project-2-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-3-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-3-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-4-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-4-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-5-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-5-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <div id="project-6-modal" class="modal">
-    <div class="modal-background"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title">Project title</p>
-        <button class="delete" aria-label="close"></button>
-      </header>
-      <section class="modal-card-body">
-        <div id="project-6-modal-carousel" class="carousel">
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/1.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/2.png">
-          </figure>
-          <figure class="image is-4by3 carousel-cell">
-            <img src="img/carousel/3.png">
-          </figure>
-        </div>
-
-        <div class="content">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat.</p>
-          <div class="tags">
-            <span class="tag">angular</span>
-            <span class="tag">mongo</span>
-            <span class="tag">typscript</span>
-            <span class="tag">node</span>
-          </div>
-        </div>
-
-      </section>
-      <footer class="modal-card-foot">
-        <button class="button is-success">Close</button>
-      </footer>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <a href="https://github.com/mmacneil/devfolio" target="_blank" class="icon has-text-primary">
-          <i class="fab fa-github"></i> <strong>devfolio</strong></a>
-      </p>
-    </div>
-  </footer>
-
-  <script src="js/bundle.js"></script>
+<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span></span></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; text-align: center; line-height: 54.0px; font: 48.0px Helvetica; color: #ffffff; -webkit-text-stroke: #ffffff"><span class="s1"><b>Hee Jeong Han<span class="Apple-converted-space"> </span></b></span></h1>
+<h2 style="margin: 0.0px 0.0px 24.0px 0.0px; text-align: center; line-height: 25.0px; font: 20.0px Helvetica; color: #ffffff; color: rgba(255, 255, 255, 0.9); -webkit-text-stroke: rgba(255, 255, 255, 0.9)"><span class="s1">Ph.D Student<span class="Apple-converted-space"> </span></span></h2>
+<p class="p4"><span class="s1"><b>Education   Publications   Projects   </b><a href="file:///Users/heejeonghan/Documents/HeeJeong-Han.github.io/docs/HeeJeongHan_CV.pdf"><span class="s2"><b>CV</b><span class="Apple-converted-space"> </span></span></a></span></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s2"><b>About Me</b></span></h1>
+<p class="p6"><span class="s2"></span><br></p>
+<p class="p7"><span class="s3">I am a Ph.D Student in the <a href="https://ist.psu.edu/"><span class="s4">College of Informatics Science and Technology</span></a> at Penn State University. I am working with <a href="https://saeedabdullah.com/"><span class="s4">Dr. Saeed Abdullah</span></a> at the <a href="https://whilab.org/"><span class="s4">Well-being and Health Innovation Lab</span></a>.</span></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s2"><b>Education</b></span></h1>
+<p class="p6"><span class="s2"></span><br></p>
+<p class="p8"><span class="s5"><b>Pennsylvania State University</b></span></p>
+<p class="p9"><span class="s5">University Park, PA September 2020 - present</span></p>
+<p class="p10"><span class="s5">Doctor of Philosophy in Informatics<span class="Apple-converted-space"> </span></span></p>
+<p class="p8"><span class="s5"><b>University of California, Irvine</b></span></p>
+<p class="p9"><span class="s5">Irvine, CA September 2017 - June 2019</span></p>
+<p class="p11"><span class="s2">Master of Science in Computer Science</span></p>
+<ul class="ul1">
+  <li class="li10"><span class="s6"></span><span class="s5">GPA : 3.76 / 4.0</span></li>
+  <li class="li10"><span class="s6"><b></b></span><span class="s5"><b>Thesis</b> : Objective Stress Monitoring based on Wearable Sensors in Everyday Settings</span></li>
+</ul>
+<p class="p8"><span class="s5"><b>Ewha Womans University</b></span></p>
+<p class="p9"><span class="s5">Seoul, Korea March 2012 - Feburary 2017</span></p>
+<p class="p10"><span class="s5">Bachelor of Science in Computer Science &amp; Engineering<span class="Apple-converted-space"> </span></span></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s2"><b>Publications</b></span></h1>
+<p class="p6"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2"><b>Han, Hee Jeong</b>, Sanjana Mendu, Beth K Jaworski, Jason E Owen, and Saeed Abdullah. <a href="https://doi.org/10.1145/3460418.3479332"><span class="s7">PTSDialogue: Designing a Conversational Agent to Support Individuals with Post-Traumatic Stress Disorder.</span></a> <i>In Adjunct Proceedings of the 2021 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2021 ACM International Symposium on Wearable Computers (UbiComp '21).</i> Association for Computing Machinery, New York, NY, USA, 198â€“203.</span></p>
+<p class="p12"><span class="s2">    DOI: https://doi.org/10.1145/3460418.3479332</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2"><b>Han, Hee Jeong</b>, Sina Labbaf, Jessica L. Borelli, Nikil Dutt, and Amir M. Rahmani. <a href="https://doi.org/10.1080/03091902.2020.1759707"><span class="s7">Objective stress monitoring based on wearable sensors in everyday settings.</span></a> <i>Journal of Medical Engineering &amp; Technology</i> 44, no. 4 (2020): 177-189</span></p>
+<p class="p12"><span class="s2">    DOI: https://doi.org/10.1080/03091902.2020.1759707</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2"><b>Han, Hee Jeong</b>, Miso Kwon, You Hyun Kang, Dong Sub Cho. <a href="file:///Users/heejeonghan/Documents/HeeJeong-Han.github.io/docs/Pedestrian%20Management%20System%20for%20Real-time%20Pedestrian%20Detection.pdf"><span class="s7">Pedestrian Management System for Real-time Pedestrian Detection.</span></a> In <i>Proceedings of Korea Multimedia Society Conference of the Spring</i>, Seoul, Korea, 2016</span></p>
+<p class="p12"><span class="s2">    <b>Best Paper Award</b>, Korea Multimedia Society Conference of the Spring 2016</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2"><b>Han, Hee Jeong</b>, You Hyun Kang, Miso Kwon, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07018004"><span class="s7">Pedestrian Pattern Classification For the Pedestrian Counting Systems using Key Matrix.</span></a> In <i>Proceedings of Korea Computer Congress 2016</i>, Jeju, Korea, 2016</span></p>
+<p class="p12"><span class="s2">    <b>Best Paper Award</b>, Korea Computer Congress 2016</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2"><b>Han, Hee Jeong</b>, You Hyun Kang, Miso Kwon, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07011911"><span class="s7">Pedestrian Safety Management Systems based on Multiple-input enabled F-pad.</span></a> In <i>Proceedings of The Korean Institute of Electrical Engineers(KIEE) Summer Conference 2016</i>, PyeongChang, Korea, 2016</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2">You Hyun Kang, Miso Kwon, <b>Hee Jeong Han</b>, Dong Sub Cho. A System on the Formation of Pedestrian Pattern for Pedestrian Volume Analysis. In <i>Proceedings of The 2016 Spring Conference of the Korea Information Processing Society(KIPS)</i>, Seoul, Korea, 2016</span></p>
+<p class="p13"><span class="s2"></span><br></p>
+<p class="p12"><span class="s2">Miso Kwon, You Hyun Kang, <b>Hee Jeong Han</b>, Dong Sub Cho. <a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07116912"><span class="s7">Adaptive for time-varing clustering DBSCAN.</span></a> In <i>Proceedings of 2016 Information and Control Symposium</i>, Seoul, Korea, 2016</span></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s2"><b>Projects</b></span></h1>
+<p class="p6"><span class="s2"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 24.0px 0.0px; line-height: 36.0px; font: 32.0px Helvetica; color: #292929; -webkit-text-stroke: #292929"><span class="s2"><b>Contact</b></span></h1>
+<p class="p6"><span class="s2"></span><br></p>
+<p class="p14"><span class="s2"><a href="mailto:heejeonghan@psu.edu"><i></i></a></span><br></p>
+<p class="p15"><span class="s2"><a href="mailto:heejeonghan@psu.edu">HEEJEONGHAN@PSU.EDU<span class="s8"></span></a></span></p>
+<p class="p14"><span class="s2"><a href="https://www.linkedin.com/in/heejeonghan/"><i></i></a></span><br></p>
+<p class="p15"><span class="s2"><a href="https://www.linkedin.com/in/heejeonghan/">LINKEDIN<span class="s8"></span></a></span></p>
+<p class="p16"><span class="s2"><a href="https://github.com/mmacneil/devfolio"><i></i></a></span><br></p>
+<p class="p17"><span class="s9"><a href="https://github.com/mmacneil/devfolio"><b>devfolio</b><span class="s2"><b></b></span></a></span></p>
 </body>
-
 </html>
