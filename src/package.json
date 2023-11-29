@@ -1,10 +1,10 @@
 {
-  "homepage": "https://heejeong-han.github.io/heejeonghan_page",
+ 
   "name": "devfolio",
   "version": "1.5.0",
   "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
   "main": "webpack.config.js",
-  "repository": "https://heejeong-han.github.io/heejeonghan_page",
+  "repository": "https://github.com/mmacneil/devfolio",
   "author": "Mark Macneil",
   "license": "MIT",
   "scripts": {
