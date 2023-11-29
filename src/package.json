@@ -1,4 +1,5 @@
 {
+  "homepage": "https://HeeJeong-Han.github.io/HeeJeong-Han.github.io.git",
   "name": "devfolio",
   "version": "1.5.0",
   "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
@@ -7,7 +8,9 @@
   "author": "Mark Macneil",
   "license": "MIT",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build" 
   },
   "devDependencies": {
     "bulma": "^0.9.3",
