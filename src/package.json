@@ -1,4 +1,5 @@
 {
+  "homepage": "https://heejeong-han.github.io/HeeJeong-Han.github.io ",
   "name": "devfolio",
   "version": "1.5.0",
   "description": "A simple, responsive, single-page portfolio and resume for developers built with Bulma, Sass, Font Awesome and Flickity.",
